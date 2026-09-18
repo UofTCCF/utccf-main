@@ -1,51 +1,121 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
-  background-color: #fff7e8;
-  color: #374660;
+:root {
+  --ink: #102e46;
+  --muted: #58646b;
+  --paper: #f7f5ef;
+  --line: #d7d9d2;
+  --gold: #e6cda3;
 }
-
 * {
   box-sizing: border-box;
 }
-
+html {
+  scroll-padding-top: 100px;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+a {
+  color: inherit;
+  text-underline-offset: 4px;
+}
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  color: #835622;
+}
+button {
+  font: inherit;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #a7692c;
+  outline-offset: 5px;
+}
 img {
   max-width: 100%;
   display: block;
 }
-
-a:visited {
-  color: inherit;
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
 }
-
-h1 {
-  margin: 0rem 0.5rem 0 0.5rem;
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.045em;
 }
-
+h2 {
+  font-size: clamp(34px, 4vw, 50px);
+}
+em {
+  font-weight: 400;
+}
+.eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  margin: 0 0 25px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: var(--ink);
+  color: white;
+  padding: 15px 22px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.button:hover {
+  background: #254b60;
+  color: white;
+}
 .fw600 {
   font-weight: 600;
+  color: var(--ink);
 }
-
 .top-border {
-  border-top: 1px solid #e4cba3;
-  padding-top: 0.5rem;
-  margin-top: 0.25rem;
-  margin-right: 0;
-  margin-left: 0;
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+  margin-top: 18px;
 }
-
-.margin-top {
-  margin-top: 1rem;
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: -100px;
+  z-index: 100;
+  padding: 12px 20px;
+  background: white;
 }
-
+.skip-link:focus {
+  top: 10px;
+}
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 4.5rem;
+  }
+  a,
+  button {
+    transition:
+      color 0.18s,
+      background-color 0.18s;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    scroll-padding-top: 90px;
   }
 }

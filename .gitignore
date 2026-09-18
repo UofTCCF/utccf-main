@@ -28,3 +28,10 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Local browser verification
+/.playwright-cli/
+/output/playwright/
+
+# Original photography (optimized copies are in public/images/community)
+/ccf-photoassets/

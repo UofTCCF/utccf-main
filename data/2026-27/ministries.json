@@ -1,0 +1,129 @@
+{
+  "name": "Ministries",
+  "description": "",
+  "ministries": [
+    {
+      "name": "Freezer",
+      "visionUrl": "https://drive.google.com/file/d/1uvFZFHbvzDhqqMKspVAd9gqeE9MpZ-E7/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Caleb",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/duocaleb_"
+            }
+          ]
+        },
+        {
+          "name": "Namking Chanyaputhipong",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/nam_queeen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Men's Ministry",
+      "visionUrl": "https://drive.google.com/file/d/1_Sr-kc_7aeTPWrlMifxhPdrADpykqdkB/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Bo Wen Zhang",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/bwn.zhang"
+            }
+          ]
+        },
+        {
+          "name": "Ian Xiang",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/whoa.itz_ian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Women's Ministry",
+      "visionUrl": "https://drive.google.com/file/d/1cS5GQ6-i3-Ms_123_tIx_0AXtcnaQTkE/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Yasmine Ko",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/yazzyko"
+            }
+          ]
+        },
+        {
+          "name": "Janie Ho",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/jan.ie_"
+            }
+          ]
+        },
+        {
+          "name": "Tife Asaba",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/tife.asaba"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outreach",
+      "visionUrl": "https://drive.google.com/file/d/1TAyn0ZSn3tuueXBhXHclOjQRUI88AWDU/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Benjamin Zhai",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/benj.aminzhai"
+            }
+          ]
+        },
+        {
+          "name": "Zoe Chung",
+          "contact": [
+            {
+              "type": "Instagram",
+              "link": "https://instagram.com/zoeechungg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Worship",
+      "visionUrl": "https://drive.google.com/file/d/1F6F9XpeSKcfOIWs9AiMgemJ7o3-O_LXy/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Wesley Liu",
+          "contact": []
+        },
+        {
+          "name": "Hailey Wong",
+          "contact": []
+        },
+        {
+          "name": "Enoch Wang",
+          "contact": []
+        }
+      ]
+    }
+  ]
+}

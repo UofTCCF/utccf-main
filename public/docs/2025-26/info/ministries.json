@@ -4,7 +4,7 @@
   "ministries": [
     {
       "name": "Freezer",
-      "visionFile": "Freezer.pdf",
+      "visionFile": "",
       "meetingInfo": {
         "dayOfWeek": "Tuesday",
         "time": "7:00pm - 9:00pm",
@@ -13,13 +13,11 @@
       "leaders": [
         {
           "name": "Jacob Xue",
-          "contact": [
-          ]
+          "contact": []
         },
         {
           "name": "Hailey Wong",
-          "contact": [
-          ]
+          "contact": []
         }
       ]
     },
@@ -34,20 +32,17 @@
       "leaders": [
         {
           "name": "Aaron Wang",
-          "contact": [
-
-          ]
+          "contact": []
         },
         {
           "name": "Bo Wen Zhang",
-          "contact": [
-          ]
+          "contact": []
         }
       ]
     },
     {
       "name": "Women's Ministry",
-      "visionFile": "Womens.pdf",
+      "visionFile": "Women.pdf",
       "meetingInfo": {
         "dayOfWeek": "Wednesday",
         "time": "7pm - 9pm",
@@ -56,13 +51,11 @@
       "leaders": [
         {
           "name": "Yasmine Ko",
-          "contact": [
-          ]
+          "contact": []
         },
         {
           "name": "Stacey Li",
-          "contact": [
-          ]
+          "contact": []
         }
       ]
     },
@@ -77,14 +70,11 @@
       "leaders": [
         {
           "name": "Isabel Wei",
-          "contact": [
-          ]
+          "contact": []
         },
         {
           "name": "Amy Chang",
-          "contact": [
-
-          ]
+          "contact": []
         }
       ]
     }

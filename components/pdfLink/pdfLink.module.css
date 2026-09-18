@@ -1,8 +1,20 @@
 .pdfLink {
-  border: none;
-  font-size: inherit;
-  cursor: pointer;
-  background-color: transparent;
-  color: #2b75d6;
-  margin-left: 0. 5rem;
+  display: inline;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--ink);
+}
+.pdfLink:hover {
+  text-decoration: underline;
+}
+.fileType {
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  opacity: 0.75;
+  margin-left: 4px;
+}
+
+.pdfLink {
+  white-space: nowrap;
 }

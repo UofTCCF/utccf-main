@@ -1,28 +1,50 @@
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import styles from "./nav.module.css";
-
+const links = [
+  ["Gatherings", "large-group"],
+  ["Ministries", "ministries"],
+  ["Small groups", "investment-groups"],
+  ["Committee", "committee"],
+];
 export default function Nav() {
+  const [open, setOpen] = useState(false);
   return (
-    <nav className={styles.navBar}>
-      <a className={styles.navLink} href="#header">
-        <FontAwesomeIcon icon={faHome} />
-      </a>
-      <a className={styles.navLink} href="#ministries">
-        Ministries
-      </a>
-      <a className={styles.navLink} href="#investment-groups">
-        Investment Groups
-      </a>
-      <a className={styles.navLink} href="#subcommittees">
-        Subcommittees
-      </a>
-      <a className={styles.navLink} href="#committee">
-        Committee
-      </a>
-      <a className={styles.navLink} href="#contact-us">
-        Contact Us
-      </a>
-    </nav>
+    <header className={styles.header}>
+      <nav className={styles.navBar} aria-label="Main navigation">
+        <a
+          className={styles.brand}
+          href="#header"
+          onClick={() => setOpen(false)}
+        >
+          <img src="/images/logolight.png" alt="" width="36" height="36" />
+          UTCCF<span>Firewood 2026–27</span>
+        </a>
+        <button
+          className={styles.toggle}
+          aria-expanded={open}
+          aria-controls="navigation-links"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? "Close −" : "Menu +"}
+        </button>
+        <div
+          id="navigation-links"
+          className={`${styles.links} ${open ? styles.open : ""}`}
+        >
+          {links.map(([label, id]) => (
+            <a key={id} href={`#${id}`} onClick={() => setOpen(false)}>
+              {label}
+            </a>
+          ))}
+          <a
+            className={styles.contact}
+            href="#contact-us"
+            onClick={() => setOpen(false)}
+          >
+            Contact <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </nav>
+    </header>
   );
 }

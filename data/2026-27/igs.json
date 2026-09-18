@@ -1,0 +1,146 @@
+{
+  "name": "Investment Groups",
+  "description": "Small groups for Bible study and prayer. Contact us to join.",
+  "igs": [
+    {
+      "number": "1",
+      "visionUrl": "https://docs.google.com/document/d/1FsCLSSfVVX8Ep_qSJRhyTqpyDFInAgcw4mOy9Fp-Ur8/edit?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Nathanyel Ng",
+          "contact": []
+        },
+        {
+          "name": "Rachel Wu",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "visionUrl": "https://docs.google.com/document/d/1nXlskenMHeBXyVuindOQ03N9nu8FHRPAG_gnDTJIeng/edit?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Maddi Chu",
+          "contact": []
+        },
+        {
+          "name": "Raymond Wu",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "visionUrl": "https://drive.google.com/file/d/10PRD-3Ev2qIOLeRpkQoG10cQj23603wx/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Isaac Xu",
+          "contact": []
+        },
+        {
+          "name": "Kimi Chu",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "visionUrl": "https://drive.google.com/file/d/1pGSZaFvTaylKtfuyHNV3y31EZEuAsjIQ/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Eric Lam",
+          "contact": []
+        },
+        {
+          "name": "Cindy Song",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "visionUrl": "https://docs.google.com/document/d/1g7Hs2XZFrE5tj7E-yxm8X4_2av7-mUmm3ncoIPhQEEY/edit?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Angelo Wei",
+          "contact": []
+        },
+        {
+          "name": "Brian Wei",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "visionUrl": "",
+      "leaders": [
+        {
+          "name": "Benjamin Zhai",
+          "contact": []
+        },
+        {
+          "name": "Amber Chow",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "visionUrl": "https://drive.google.com/file/d/191qwea6jH1JlTW46MaIJuBgw9AovoC6l/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Timothy Li",
+          "contact": []
+        },
+        {
+          "name": "Isaac Hsung",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "visionUrl": "https://drive.google.com/file/d/1VFuPPtZyKIh4BlyqTF86AUCepkx5MrwV/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Elisa Wang",
+          "contact": []
+        },
+        {
+          "name": "Howen Diau",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "visionUrl": "https://drive.google.com/file/d/1raLeJYIuok-Q0aDEMSapeYS_D1-hcKL2/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Jacob Xue",
+          "contact": []
+        },
+        {
+          "name": "Chloe Yu",
+          "contact": []
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "visionUrl": "https://drive.google.com/file/d/1KEnTyuwM7GlZSAhrEqmNicdfM86__V6M/view?usp=drivesdk",
+      "leaders": [
+        {
+          "name": "Rolynn Zhou",
+          "contact": []
+        },
+        {
+          "name": "Samuel Choi",
+          "contact": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,14 @@
-import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./pdfLink.module.css";
-
-export default function PdfLink({ fileName, children }) {
-  const openPdf = () => {
-    window.open(`docs/2024-25/visions/${fileName}`, "_blank");
-  };
-
+export default function PdfLink({ fileName, href, children }) {
+  if (!href && !fileName) return null;
   return (
-    <button className={styles.pdfLink} onClick={openPdf}>
-      <FontAwesomeIcon icon={faFilePdf} />{" "}
-      {children}
-    </button>
+    <a
+      className={styles.pdfLink}
+      href={href || `/docs/2025-26/visions/${fileName}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children} <span aria-hidden="true">↗</span>
+    </a>
   );
 }

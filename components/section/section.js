@@ -1,12 +1,17 @@
 import styles from "./section.module.css";
-
 export default function Section({ title, description, children }) {
-  const title_id = title.replace(/\s+/g, "-").toLowerCase();
+  const id = title.replace(/\s+/g, "-").toLowerCase();
   return (
-    <section className={styles.section} id={title_id}>
-      <h3 className={styles.sectionTitle}>{title}</h3>
-      <p className={styles.sectionDescription}>{description}</p>
-      {children}
+    <section className={styles.section} id={id} aria-labelledby={`${id}-title`}>
+      <div className={styles.heading}>
+        <h2 className={styles.sectionTitle} id={`${id}-title`}>
+          {title}
+        </h2>
+        {description && (
+          <p className={styles.sectionDescription}>{description}</p>
+        )}
+      </div>
+      <div className={styles.grid}>{children}</div>
     </section>
   );
 }

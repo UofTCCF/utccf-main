@@ -1,13 +1,20 @@
 .iconLink,
 .iconLink:visited {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 32px;
+  min-height: 34px;
+  padding: 4px;
   text-decoration: none;
-  width: fit-content;
-  margin: 0 0.25rem;
-  border-radius: 10px;
-  color: #dbb67a;
+  color: #53695d;
+  font-size: 15px;
 }
-
+.iconLink:hover {
+  color: var(--ink);
+  background: #eceee5;
+}
 .littleText {
-  font-size: small;
+  font-size: 12px;
 }

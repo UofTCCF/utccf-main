@@ -1,6 +1,7 @@
 .people {
-  margin: 0;
-  font-size: smaller;
+  margin: 0 0 7px;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   font-weight: 600;
-  display: inline;
 }

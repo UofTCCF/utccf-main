@@ -1,16 +1,17 @@
 import styles from "./footer.module.css";
-
+import PdfLink from "../pdfLink/pdfLink";
 export default function Footer() {
   return (
-    <div className={styles.footer}>
-      Made with React, NextJS, and Vercel. View the source code{" "}
-      <a
-        className={styles.link}
-        href="https://github.com/utccf-admin/utccf-main"
-      >
-        here
+    <footer className={styles.footer}>
+      <a className={styles.brand} href="#header">
+        UTCCF
       </a>
-      .
-    </div>
+      <p>
+        University of Toronto
+        <br />
+        Chinese Christian Fellowship
+      </p>
+      <PdfLink fileName="UTCCF-Constitution.pdf">Constitution</PdfLink>
+    </footer>
   );
 }

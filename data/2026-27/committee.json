@@ -1,0 +1,48 @@
+{
+  "name": "Committee",
+  "description": "2026–27",
+  "leaders": [
+    {
+      "name": "Maddi Chu",
+      "position": "Chair",
+      "visionUrl": "https://docs.google.com/document/d/1LaXlVwxA3rNsbUIB1eReWza3Q9D7Fb2MQWw4JHEyrIw/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Eric Lam",
+      "position": "Vice Chair",
+      "visionUrl": "https://docs.google.com/document/d/1__QkwK0T1ftzuyz7ieF4fHNTyBqcC8ylURzHXaHAPmU/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Ian Xiang",
+      "position": "Secretary-Treasurer",
+      "visionUrl": "https://docs.google.com/document/d/1VDP2AmW5_DL0KkTbyfTdbaoCbvHJvHZfFjrXZWH4TEk/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Wesley Liu",
+      "position": "Worship Coordinator",
+      "visionUrl": "https://docs.google.com/document/d/1f_R3ApdBPBtH4oeMLiCkbJTyXzHSkp6UwvEk0S_GygI/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Yasmine Ko",
+      "position": "Women's Devotional Leader",
+      "visionUrl": "https://docs.google.com/document/d/1ALJ1zNYXUrluheYb0E76lh8W_qk48JfSXjdbW8sAdUk/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Bo Wen Zhang",
+      "position": "Men's Devotional Leader",
+      "visionUrl": "https://docs.google.com/document/d/1UHu1n1gHOvDgjIAdfKKO5niGcPQe3VfM2h8-MLYL4Tw/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Simeon Hwang",
+      "position": "Social Coordinator",
+      "visionUrl": "",
+      "contact": []
+    }
+  ]
+}

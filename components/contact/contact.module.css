@@ -1,14 +1,36 @@
-.centered {
-  text-align: center;
-  border-bottom: 1px solid #062968;
-  padding: 1.25rem 1.25rem 1rem 1.25rem;
+.contact {
+  max-width: 1160px;
+  margin: auto;
+  padding: 44px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
-
-.contactTitle {
+.contact h2 {
+  font-size: 38px;
   margin: 0;
-  font-size: x-large;
 }
-
-.description {
-  color: #6c778c;
+.channels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 26px;
+}
+.channels a {
+  font-size: 14px;
+  min-height: 44px;
+}
+@media (max-width: 1240px) {
+  .contact {
+    margin: 0 40px;
+  }
+}
+@media (max-width: 700px) {
+  .contact {
+    margin: 0 24px;
+    padding: 32px 0;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
 }

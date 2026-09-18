@@ -8,10 +8,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./contactButton.module.css";
 
-export default function ContactButton({ type, link }) {
+export default function ContactButton({ type, link, showLabel = false }) {
   if (type === "Phone") {
     return (
-      <a className={styles.iconLink}>
+      <a
+        className={styles.iconLink}
+        href={`tel:${link}`}
+        aria-label={`Call ${link}`}
+      >
         <FontAwesomeIcon icon={faPhone} />{" "}
         <span className={styles.littleText}>{link}</span>
       </a>
@@ -31,8 +35,9 @@ export default function ContactButton({ type, link }) {
   }
 
   return (
-    <a className={styles.iconLink} href={link}>
+    <a className={styles.iconLink} href={link} aria-label={type}>
       {renderIcon(type)}
+      {showLabel && <span>{type}</span>}
     </a>
   );
 }
