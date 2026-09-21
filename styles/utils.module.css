@@ -1,15 +1,18 @@
 .hero {
-  max-width: 1240px;
-  margin: auto;
-  padding: 48px 40px 54px;
+  min-height: min(720px, calc(100svh - 74px));
+  margin: 0 0 clamp(48px, 6vw, 96px);
+  padding: clamp(56px, 8vw, 108px) clamp(24px, 7vw, 104px);
   display: grid;
-  grid-template-columns: 0.95fr 1.15fr;
-  column-gap: 48px;
-  row-gap: 28px;
+  grid-template-columns: minmax(320px, 0.72fr) minmax(0, 1.28fr);
+  column-gap: clamp(40px, 7vw, 128px);
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 .heroCopy {
-  padding: 0;
+  max-width: 500px;
+  position: relative;
+  z-index: 2;
 }
 .wordmark {
   margin: 0 -12px 28px;
@@ -66,35 +69,85 @@
   font-size: 13px;
 }
 .photos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(94vw, 1460px);
+  overflow: hidden;
+  background: #101d28;
 }
-.photos img {
+.photos::before {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  background: linear-gradient(90deg, #f7f5ef 0%, rgba(247, 245, 239, 0.98) 8%, rgba(247, 245, 239, 0.92) 16%, rgba(247, 245, 239, 0.78) 25%, rgba(247, 245, 239, 0.55) 35%, rgba(247, 245, 239, 0.3) 44%, rgba(247, 245, 239, 0.12) 53%, rgba(247, 245, 239, 0.03) 61%, rgba(247, 245, 239, 0) 68%), linear-gradient(0deg, rgba(5, 19, 28, 0.28), transparent 38%);
+  content: "";
+  pointer-events: none;
+}
+.photoSlide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.1s ease, visibility 1.1s ease;
+}
+.photoSlide.active {
+  opacity: 1;
+  visibility: visible;
+}
+.photoSlide img {
   width: 100%;
-  height: 150px;
+  height: 100%;
+  display: block;
   object-fit: cover;
+  object-position: 50% 50%;
+  transform: scale(1.08) translate3d(-1.5%, 0, 0);
+  transition: transform 7s ease-in-out;
 }
-.photos .campfire {
-  grid-column: 1 / -1;
-  height: 320px;
-  object-position: 50% 58%;
+.photoSlide.active img {
+  transform: scale(1.16) translate3d(1.5%, -1%, 0);
+}
+.photoDots {
+  position: absolute;
+  z-index: 3;
+  right: 28px;
+  bottom: 24px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.photoDot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.photoDot.activeDot {
+  background: white;
+  box-shadow: 0 0 0 3px rgba(16, 46, 70, 0.25);
+  opacity: 1;
 }
 @media (max-width: 1000px) {
   .hero {
-    column-gap: 30px;
+    column-gap: 40px;
   }
-  .photos .campfire {
-    height: 300px;
-  }
-  .photos img {
-    height: 130px;
+  .photos {
+    width: 92vw;
   }
 }
 @media (max-width: 700px) {
   .hero {
     grid-template-columns: 1fr;
-    padding: 32px 24px 36px;
+    min-height: 0;
+    padding: 42px 24px 0;
+    margin-bottom: 48px;
     row-gap: 28px;
   }
   .heroCopy {
@@ -117,10 +170,32 @@
   .scripture {
     margin-bottom: 24px;
   }
-  .photos .campfire {
-    height: 280px;
+  .photos {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: calc(100% + 48px);
+    height: min(108vw, 460px);
+    margin: 0 -24px;
   }
-  .photos img {
-    height: 120px;
+  .photos::before {
+    background: linear-gradient(0deg, rgba(5, 19, 28, 0.3), transparent 36%);
+  }
+  .photoDots {
+    right: 20px;
+    bottom: 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .photoSlide {
+    transition: none;
+  }
+  .photoSlide img {
+    transition: none;
+    transform: scale(1.04);
+  }
+  .photoSlide.active img {
+    transform: scale(1.04);
   }
 }
