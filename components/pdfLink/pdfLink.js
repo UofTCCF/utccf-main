@@ -1,4 +1,5 @@
 import styles from "./pdfLink.module.css";
+import Arrow from "../arrow/arrow";
 export default function PdfLink({ fileName, href, children }) {
   if (!href && !fileName) return null;
   return (
@@ -8,7 +9,7 @@ export default function PdfLink({ fileName, href, children }) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {children} <span aria-hidden="true">↗</span>
+      {children} <Arrow />
     </a>
   );
 }

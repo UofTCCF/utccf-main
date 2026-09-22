@@ -7,6 +7,7 @@ import Committee from "../components/committee/committee";
 import Footer from "../components/footer/footer";
 import Nav from "../components/nav/nav";
 import Contact from "../components/contact/contact";
+import Arrow from "../components/arrow/arrow";
 import largeGroup from "../data/2026-27/largeGroup.json";
 import ministries from "../data/2026-27/ministries.json";
 import igs from "../data/2026-27/igs.json";
@@ -108,7 +109,7 @@ export default function Home() {
             </p>
             <div className={styles.actions}>
               <a className={styles.heroCta} href="/vision">
-                Explore Firewood <span aria-hidden="true">→</span>
+                Explore Firewood <Arrow direction="right" />
               </a>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useEffect, useRef } from "react";
 import Footer from "../components/footer/footer";
+import Arrow from "../components/arrow/arrow";
 import styles from "../styles/vision.module.css";
 
 export default function Vision() {
@@ -60,7 +61,7 @@ export default function Vision() {
             <span>Firewood 2026–27</span>
           </a>
           <a className={styles.back} href="/">
-            Back to home <span aria-hidden="true">↗</span>
+            Back to home <Arrow />
           </a>
         </div>
       </header>

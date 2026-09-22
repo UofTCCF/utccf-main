@@ -1,4 +1,5 @@
 import styles from "./largeGroup.module.css";
+import Arrow from "../arrow/arrow";
 export default function LargeGroup({ largeGroup }) {
   return (
     <section
@@ -14,7 +15,7 @@ export default function LargeGroup({ largeGroup }) {
         <p className={styles.time}>{largeGroup.meetingInfo.time}</p>
         <p className={styles.location}>{largeGroup.meetingInfo.location}</p>
         <a href="https://instagram.com/utccf_">
-          Weekly updates <span aria-hidden="true">↗</span>
+          Weekly updates <Arrow />
         </a>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./nav.module.css";
+import Arrow from "../arrow/arrow";
 const links = [
   ["Gatherings", "large-group"],
   ["Ministries", "ministries"],
@@ -41,7 +42,7 @@ export default function Nav() {
             href="#contact-us"
             onClick={() => setOpen(false)}
           >
-            Contact <span aria-hidden="true">↗</span>
+            Contact <Arrow />
           </a>
         </div>
       </nav>

@@ -79,7 +79,7 @@
   text-decoration: none;
   transition: background-color 180ms ease, color 180ms ease;
 }
-.heroCta span {
+.heroCta svg {
   display: inline-block;
   font-size: 15px;
   line-height: 1;
@@ -90,8 +90,8 @@
   background: #254b60;
   color: #fff;
 }
-.heroCta:hover span,
-.heroCta:focus-visible span {
+.heroCta:hover svg,
+.heroCta:focus-visible svg {
   transform: translateX(2px);
 }
 .photos {
@@ -246,7 +246,7 @@
     transition: none;
   }
   .heroCta,
-  .heroCta span,
+  .heroCta svg,
   .photoDot,
   .photoDot::before {
     transition: none;

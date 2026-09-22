@@ -10,8 +10,9 @@
   color: var(--muted);
 }
 .brand {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
-  font-weight: 750;
+  font-weight: 700;
   text-decoration: none;
   color: var(--ink);
   letter-spacing: -0.04em;
