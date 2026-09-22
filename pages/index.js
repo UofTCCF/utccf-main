@@ -11,7 +11,7 @@ import largeGroup from "../data/2026-27/largeGroup.json";
 import ministries from "../data/2026-27/ministries.json";
 import igs from "../data/2026-27/igs.json";
 import committee from "../data/2026-27/committee.json";
-import contacts from "../public/docs/2025-26/info/contacts.json";
+import contacts from "../data/2026-27/contacts.json";
 import styles from "../styles/utils.module.css";
 
 const heroSlides = [
@@ -20,24 +20,32 @@ const heroSlides = [
     alt: "CCF members singing together around a campfire",
     width: 6000,
     height: 4000,
+    objectPosition: "56% 58%",
+    mobilePosition: "63% 58%",
   },
   {
     src: "/images/community/gathering.webp",
-    alt: "Students laughing together at a CCF gathering",
+    alt: "Students talking together outdoors at a CCF gathering",
     width: 4218,
     height: 2812,
+    objectPosition: "57% 48%",
+    mobilePosition: "64% 48%",
   },
   {
     src: "/images/community/friends.webp",
     alt: "Students sharing a laugh at a CCF gathering",
     width: 4128,
     height: 2752,
+    objectPosition: "55% 46%",
+    mobilePosition: "52% 46%",
   },
   {
     src: "/images/community/worship.webp",
     alt: "CCF gathered for outdoor worship on campus",
     width: 5931,
     height: 3958,
+    objectPosition: "53% 59%",
+    mobilePosition: "54% 62%",
   },
 ];
 
@@ -99,8 +107,8 @@ export default function Home() {
               Lose Your Life to Find It
             </p>
             <div className={styles.actions}>
-              <a className="button" href="#large-group">
-                Learn more about Firewood <span aria-hidden="true">↗</span>
+              <a className={styles.heroCta} href="/vision">
+                Explore Firewood <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
@@ -112,6 +120,10 @@ export default function Home() {
                 }`}
                 key={slide.src}
                 aria-hidden={index !== activeSlide}
+                style={{
+                  "--desktop-position": slide.objectPosition,
+                  "--mobile-position": slide.mobilePosition,
+                }}
               >
                 <img
                   src={slide.src}

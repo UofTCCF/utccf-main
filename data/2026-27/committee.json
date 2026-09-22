@@ -1,6 +1,6 @@
 {
   "name": "Committee",
-  "description": "2026–27",
+  "description": "The UTCCF executive committee is a group of CCF members who have volunteered their time and effort to serve the fellowship. They work closely with the small group and ministry leaders to coordinate and provide direction for UTCCF. The committee is elected annually in April after a thorough self-reflection and visioning process, set out in detail in our constitution. Although the committee is responsible for coordinating the fellowship, the whole CCF community is involved in running UTCCF.",
   "leaders": [
     {
       "name": "Maddi Chu",
@@ -41,7 +41,13 @@
     {
       "name": "Simeon Hwang",
       "position": "Social Coordinator",
-      "visionUrl": "",
+      "visionUrl": "https://docs.google.com/document/d/1R7OupTYNYMvODJs4ErWRMR1vmO6Y9TmLGMiG34gKTHw/edit?usp=drivesdk",
+      "contact": []
+    },
+    {
+      "name": "Benjamin Zhai",
+      "position": "Outreach Coordinator",
+      "visionUrl": "https://docs.google.com/document/d/1_NJP7hWqbijWQCPwzPjLLo04y0T3Jnp2Y9zfeaTH-yg/edit?usp=drivesdk",
       "contact": []
     }
   ]

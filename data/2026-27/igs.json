@@ -1,6 +1,6 @@
 {
   "name": "Investment Groups",
-  "description": "Small groups for Bible study and prayer. Contact us to join.",
+  "description": "Investment groups (IGs) are our small groups which meet weekly after large group for Bible study and other activities. Please contact a committee member to join an IG.",
   "igs": [
     {
       "number": "1",
@@ -74,7 +74,7 @@
     },
     {
       "number": "6",
-      "visionUrl": "",
+      "visionUrl": "https://drive.google.com/file/d/19-xT3OKo6WDDo8egpApT_HYNyO642eQs/view?usp=drivesdk",
       "leaders": [
         {
           "name": "Benjamin Zhai",

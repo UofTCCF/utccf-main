@@ -1,6 +1,6 @@
 {
   "name": "Ministries",
-  "description": "",
+  "description": "Ministries are separate gatherings from large group for members to deepen their relationship with God and meet fellow believers in a more focused setting. To learn more about the ministries, read their visions below or contact the leaders.",
   "ministries": [
     {
       "name": "Freezer",
@@ -8,21 +8,11 @@
       "leaders": [
         {
           "name": "Caleb",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/duocaleb_"
-            }
-          ]
+          "contact": []
         },
         {
           "name": "Namking Chanyaputhipong",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/nam_queeen"
-            }
-          ]
+          "contact": []
         }
       ]
     },
@@ -32,21 +22,11 @@
       "leaders": [
         {
           "name": "Bo Wen Zhang",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/bwn.zhang"
-            }
-          ]
+          "contact": []
         },
         {
           "name": "Ian Xiang",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/whoa.itz_ian"
-            }
-          ]
+          "contact": []
         }
       ]
     },
@@ -56,30 +36,15 @@
       "leaders": [
         {
           "name": "Yasmine Ko",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/yazzyko"
-            }
-          ]
+          "contact": []
         },
         {
           "name": "Janie Ho",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/jan.ie_"
-            }
-          ]
+          "contact": []
         },
         {
           "name": "Tife Asaba",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/tife.asaba"
-            }
-          ]
+          "contact": []
         }
       ]
     },
@@ -89,21 +54,11 @@
       "leaders": [
         {
           "name": "Benjamin Zhai",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/benj.aminzhai"
-            }
-          ]
+          "contact": []
         },
         {
           "name": "Zoe Chung",
-          "contact": [
-            {
-              "type": "Instagram",
-              "link": "https://instagram.com/zoeechungg"
-            }
-          ]
+          "contact": []
         }
       ]
     },

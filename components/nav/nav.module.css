@@ -6,8 +6,8 @@
   border-bottom: 1px solid var(--line);
 }
 .navBar {
-  max-width: 1240px;
-  padding: 20px 40px;
+  width: 100%;
+  padding: 18px clamp(24px, 7vw, 104px);
   margin: auto;
   display: flex;
   align-items: center;
