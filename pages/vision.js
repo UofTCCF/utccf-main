@@ -57,7 +57,13 @@ export default function Vision() {
         <div className={styles.nav}>
           <a className={styles.brand} href="/">
             <img src="/images/logolight.png" width="36" height="36" alt="" />
-            <strong>UTCCF</strong>
+            <img
+              className={styles.brandWordmark}
+              src="/images/utccf-wordmark.svg"
+              width="6719"
+              height="1516"
+              alt="UTCCF"
+            />
             <span>Firewood 2026–27</span>
           </a>
           <a className={styles.back} href="/">

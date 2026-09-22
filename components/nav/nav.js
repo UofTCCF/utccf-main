@@ -18,7 +18,14 @@ export default function Nav() {
           onClick={() => setOpen(false)}
         >
           <img src="/images/logolight.png" alt="" width="36" height="36" />
-          UTCCF<span>Firewood 2026–27</span>
+          <img
+            className={styles.brandWordmark}
+            src="/images/utccf-wordmark.svg"
+            alt="UTCCF"
+            width="6719"
+            height="1516"
+          />
+          <span>Firewood 2026–27</span>
         </a>
         <button
           className={styles.toggle}
