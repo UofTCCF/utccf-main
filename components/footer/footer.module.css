@@ -15,7 +15,8 @@
 }
 .brand img {
   width: 88px;
-  height: auto;
+  height: 20px;
+  object-fit: contain;
 }
 .footer p {
   margin: 0;

@@ -22,8 +22,8 @@ export default function Nav() {
             className={styles.brandWordmark}
             src="/images/utccf-wordmark.svg"
             alt="UTCCF"
-            width="6719"
-            height="1516"
+            width="84"
+            height="19"
           />
           <span>Firewood 2026–27</span>
         </a>

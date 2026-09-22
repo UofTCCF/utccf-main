@@ -23,7 +23,9 @@
 }
 .brandWordmark {
   width: 84px;
-  height: auto;
+  height: 19px;
+  flex: 0 0 84px;
+  object-fit: contain;
 }
 .brand span {
   font-family: Arial, Helvetica, sans-serif;

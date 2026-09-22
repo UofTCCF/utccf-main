@@ -60,8 +60,8 @@ export default function Vision() {
             <img
               className={styles.brandWordmark}
               src="/images/utccf-wordmark.svg"
-              width="6719"
-              height="1516"
+              width="84"
+              height="19"
               alt="UTCCF"
             />
             <span>Firewood 2026–27</span>

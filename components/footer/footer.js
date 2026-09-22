@@ -7,8 +7,8 @@ export default function Footer() {
         <img
           src="/images/utccf-wordmark.svg"
           alt="UTCCF"
-          width="6719"
-          height="1516"
+          width="88"
+          height="20"
         />
       </a>
       <p>
